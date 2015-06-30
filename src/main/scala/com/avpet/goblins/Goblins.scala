@@ -52,6 +52,7 @@ object Goblins {
     heroImage.onload = (e: dom.Event) => {
       heroReady = true
     }
+    
     heroImage.src = "images/hero.png"
 
     // Monster image
@@ -60,6 +61,7 @@ object Goblins {
     monsterImage.onload = (e: dom.Event) => {
       monsterReady = true
     }
+    
     monsterImage.src = "images/monster.png"
 
     // Game objects
